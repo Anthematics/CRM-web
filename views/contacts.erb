@@ -15,8 +15,11 @@
 	<div class = "bigbox">
 		 <ul class = contactdisplay>
 		 <% @collection.each do |contact| %>
-		<li> <h4> <%=contact.first_name %> <%=contact.last_name %> </h4> <%=contact.email %> <%=contact.note %>  </li>
-		<%end%>
+		<li> <h4> Name: <%=contact.first_name %> <%=contact.last_name %> </h4> <b> Email:</b> <%=contact.email %> <b>  Note: </b> <%=contact.note %>  </li>
+		<br><li> <a href ="#"> edit </a>|<a href="#"> delete </a> </li>
+			<%end%>
+
+
 	</div>
 
 

@@ -20,8 +20,9 @@ html{
 {
 	list-style-type: none;
 	display: inline-block;
-	width: 30%;
+	width: 23%;
 	background-color: lightgray;
+	margin-left: 1%
 }
 
 .heady
