@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Contacts List</title>
+	</head>
+	<body>
+		<h1> Jasons rad friends and family</h1>
+
+			 <% @collection.each do |contact| %>
+				<li> <h4> <%=contact.first_name %> <%=contact.last_name %> </h4> <%=contact.email  %> <%=contact.note  %>  </li>
+				
+
+			<%end%>
+			</ul>
+
+
+	</body>
+</html>
