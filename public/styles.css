@@ -1,0 +1,51 @@
+html{
+	font-family: sans-serif;
+}
+
+.heady
+{
+	background-color: black;
+	color:white;
+	text-align: center;
+}
+
+ul.navlist{
+	text-align: center;
+	display: inline;
+}
+
+.navlist>ul>li
+{
+	text-decoration: none;
+}
+
+.footy
+{
+	background-color: black
+	color:white
+}
+
+.about
+{
+	text-align: center;
+}
+
+.contactdisplay{
+text-align: center;
+}
+
+li.contactdisplay
+{
+	background-color: lightblue;
+}
+
+.contacthead
+{
+	background-color: wheat;
+	text-align: center;
+}
+
+footer.footy
+{
+	text-align: center;
+}

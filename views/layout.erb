@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" href="/styles.css">
 		<meta charset="utf-8">
-		<title></title>
 	</head>
 	<body>
+		<h1 class="heady"> Welcome to my awesometastic crm! </h1>
 		<nav>
-		<ul>
-			<li> <a href=index.erb> Home </li>
-			<li>  <a href=about.erb> About </li>
-			<li>  <a href=contacts.erb> Contacts </li>
+		<ul class = "navlist">
+			<li> <a href="index"> Home </a></li>
+			<li>  <a href="about"> About </a> </li>
+			<li>  <a href="contacts"> Contacts </a></li>
 		</ul>
-	 </nav>
+		</nav>
+		<%= yield %>
+	 <footer class="footy"> <h3> Author: Jason </h3> </footer>
 	</body>
 </html>

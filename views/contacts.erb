@@ -5,14 +5,16 @@
 		<title> Contacts List</title>
 	</head>
 	<body>
-		<h1> Jasons rad friends and family</h1>
 
-			 <% @collection.each do |contact| %>
-				<li> <h4> <%=contact.first_name %> <%=contact.last_name %> </h4> <%=contact.email  %> <%=contact.note  %>  </li>
-				
+		<ul>
 
-			<%end%>
-			</ul>
+		 <header class="contacthead"> <h1> Jason's rad friends and family </h1></header>
+
+		 <% @collection.each do |contact| %>
+		<li class = contactdisplay> <h4> <%=contact.first_name %> <%=contact.last_name %> </h4> <%=contact.email  %> <%=contact.note  %>  </li>
+		<%end%>
+		</ul>
+
 
 
 	</body>

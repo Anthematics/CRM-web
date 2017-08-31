@@ -5,13 +5,21 @@ require 'sinatra'
 		erb :index
 	end
 
+	get '/index' do
+		erb :index
+	end
+
 	get '/' do
 		 erb :index
 	end
 
-	get '/contact' do
+	get '/contacts' do
 				@collection = Contact.all
 				erb :contacts
+	end
+
+	get '/about' do
+		erb:about
 	end
 
 	after do
