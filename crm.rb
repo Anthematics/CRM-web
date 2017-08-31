@@ -18,9 +18,15 @@ require 'sinatra'
 				erb :contacts
 	end
 
-	get '/about' do
-		erb:about
+	get '/contacts/:id' do
+		erb :show_contact
 	end
+
+	get '/about' do
+		erb :about
+	end
+
+
 
 	after do
 		ActiveRecord::Base.connection.close
