@@ -2,6 +2,28 @@ html{
 	font-family: sans-serif;
 }
 
+.overallnav{
+
+}
+
+.navlist a
+{
+	text-decoration: none;
+	font-size: 24px;
+	color: black;
+	font: bolder;
+	font-variant-caps: small-caps;
+	background-color: white;
+}
+
+.navlist li
+{
+	list-style-type: none;
+	display: inline-block;
+	width: 30%;
+	background-color: lightgray;
+}
+
 .heady
 {
 	background-color: black;
@@ -9,21 +31,19 @@ html{
 	text-align: center;
 }
 
+.overallnav{
+
+}
+
 ul.navlist{
 	text-align: center;
 	display: inline;
 }
 
-.navlist>ul>li
-{
-	text-decoration: none;
+.bigbox{
+	background-color: aliceblue;
 }
 
-.footy
-{
-	background-color: black
-	color:white
-}
 
 .about
 {
@@ -32,6 +52,7 @@ ul.navlist{
 
 .contactdisplay{
 text-align: center;
+display: inline;
 }
 
 li.contactdisplay
@@ -41,11 +62,20 @@ li.contactdisplay
 
 .contacthead
 {
-	background-color: wheat;
+	background-color: linen;
 	text-align: center;
 }
 
 footer.footy
 {
 	text-align: center;
+	background-color: black;
+	color:white;
+}
+
+.contactcounter{
+
+	text-align: center;
+	font-size: 24px;
+	background-color: gold;
 }
