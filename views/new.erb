@@ -5,12 +5,12 @@
 		<title>Add a new contact!</title>
 	</head>
 	<body>
-		<h1> Create a new contact ! </h1>
-		<form action='/contacts' method ='post'>
-			<input type ='text' name  = 'first_name'>
-			<input type ='text' name  = 'last_name'>
-			<input type ='text' name  =  'email'>
-			<input type ='text' name  =  'note' >
+		<h1 class= createchead> Create a new contact ! </h1>
+		<form action='/contacts' method ='post'class="addform">
+			<input type ='text' name  = 'first_name' placeholder="First Name?">
+			<input type ='text' name  = 'last_name'  placeholder="Last Name?">
+			<input type ='text' name  = 'email'     placeholder="email">
+			<input type ='text' name  = 'note'      placeholder="note" >
 			<input type ='submit' value = 'New Contact'>
 		</form>
 	</body>

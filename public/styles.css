@@ -80,3 +80,12 @@ footer.footy
 	font-size: 24px;
 	background-color: gold;
 }
+/*================styling for exercise 4 - preexisting elements=====*/
+
+.addform{
+	text-align: center;
+}
+
+.createchead {
+	text-align: center;
+}
