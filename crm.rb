@@ -18,21 +18,23 @@ require 'sinatra'
 				erb :contacts
 	end
 
+	get '/contacts/new' do
+		erb :new
+	end
+
 	get '/contacts/:id' do
 		 params[:id]
 		 @contact = Contact.find_by({id: params[:id].to_i})
 		 if @contact
-			 erb :show_contact
-		 else
-			 raise Sinatra::NotFound
+				 erb :show_contact
+			 else
+				 raise Sinatra::NotFound
 		 end
 	end
 
 	get '/about' do
 		erb :about
 	end
-
-
 
 	after do
 		ActiveRecord::Base.connection.close
